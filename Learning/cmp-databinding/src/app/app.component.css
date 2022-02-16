@@ -1,0 +1,11 @@
+.container {
+  margin-top: 30px;
+}
+
+button {
+  margin: 1rem 0;
+}
+
+button + button {
+  margin-left: 1rem;
+}

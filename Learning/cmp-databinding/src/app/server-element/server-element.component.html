@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-header" #headerContent>{{ name }}</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <!-- <strong *ngIf="element.type === 'server'" style="color: red">{{ element.content }}</strong>
+      <em *ngIf="element.type === 'blueprint'">{{ element.content }}</em> -->
+      <ng-content></ng-content>
+    </li>
+  </ul>
+</div>
